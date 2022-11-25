@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D999B8A56028C64173303D0 /* Pods_MintynBank_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59179E351B2279ECFA93F341 /* Pods_MintynBank_test.framework */; };
+		CEA73365374A19C3CF94022A /* Pods_MintynBank_test_MintynBank_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF44192EF446F14D3999063 /* Pods_MintynBank_test_MintynBank_testUITests.framework */; };
+		EBEE193A292D725300FE8FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1939292D725300FE8FAD /* AppDelegate.swift */; };
+		EBEE1943292D725500FE8FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE1942292D725500FE8FAD /* Assets.xcassets */; };
+		EBEE1946292D725500FE8FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEE1944292D725500FE8FAD /* LaunchScreen.storyboard */; };
+		EBEE1951292D725500FE8FAD /* MintynBank_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1950292D725500FE8FAD /* MintynBank_testTests.swift */; };
+		EBEE195B292D725500FE8FAD /* MintynBank_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE195A292D725500FE8FAD /* MintynBank_testUITests.swift */; };
+		EBEE195D292D725500FE8FAD /* MintynBank_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE195C292D725500FE8FAD /* MintynBank_testUITestsLaunchTests.swift */; };
+		EBEE196A292D7E5C00FE8FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1969292D7E5C00FE8FAD /* SceneDelegate.swift */; };
+		EBEE1970292D807A00FE8FAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE196F292D807A00FE8FAD /* LoginViewController.swift */; };
+		EBEE1972292D81E500FE8FAD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1971292D81E500FE8FAD /* LoginView.swift */; };
+		EBEE1975292D9BF800FE8FAD /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1974292D9BF800FE8FAD /* UITextField+SecureToggle.swift */; };
+		EBEE1977292DA3C500FE8FAD /* TextFieldWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1976292DA3C500FE8FAD /* TextFieldWithPadding.swift */; };
+		EBEE1979292E041400FE8FAD /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1978292E041400FE8FAD /* LoginHeaderView.swift */; };
+		EBEE197B292E47B900FE8FAD /* LoginHeaderItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE197A292E47B900FE8FAD /* LoginHeaderItemView.swift */; };
+		EBEE197D292E5A9800FE8FAD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE197C292E5A9800FE8FAD /* HomeViewController.swift */; };
+		EBEE1980292E62C300FE8FAD /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE197F292E62C300FE8FAD /* DashboardViewController.swift */; };
+		EBEE1984292E668E00FE8FAD /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1983292E668E00FE8FAD /* UIViewController+Utils.swift */; };
+		EBEE1986292E916700FE8FAD /* GradientUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1985292E916700FE8FAD /* GradientUIView.swift */; };
+		EBEE1988292EFFB200FE8FAD /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1987292EFFB200FE8FAD /* HomeUIView.swift */; };
+		EBEE198A292F048000FE8FAD /* ExploreUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1989292F048000FE8FAD /* ExploreUIView.swift */; };
+		EBEE198C292F1FE100FE8FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEE198B292F1FE100FE8FAD /* Main.storyboard */; };
+		EBEE1995292F25F600FE8FAD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1994292F25F600FE8FAD /* SettingsViewController.swift */; };
+		EBEE1998292F285E00FE8FAD /* LegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1996292F285D00FE8FAD /* LegalViewController.swift */; };
+		EBEE1999292F285E00FE8FAD /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE1997292F285D00FE8FAD /* SystemViewController.swift */; };
+		EBEE199D292F294500FE8FAD /* Legal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE199A292F294400FE8FAD /* Legal2ViewController.swift */; };
+		EBEE199E292F294500FE8FAD /* Legal3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE199B292F294400FE8FAD /* Legal3ViewController.swift */; };
+		EBEE199F292F294500FE8FAD /* Lega1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE199C292F294500FE8FAD /* Lega1ViewController.swift */; };
+		ECD17F4B6F27411D16F51189 /* Pods_MintynBank_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D51BE398C9A4C7020C49A3E /* Pods_MintynBank_testTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBEE194D292D725500FE8FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBEE192E292D725300FE8FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBEE1935292D725300FE8FAD;
+			remoteInfo = "MintynBank test";
+		};
+		EBEE1957292D725500FE8FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBEE192E292D725300FE8FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBEE1935292D725300FE8FAD;
+			remoteInfo = "MintynBank test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BF44192EF446F14D3999063 /* Pods_MintynBank_test_MintynBank_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintynBank_test_MintynBank_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2145C570B10283AC382DC745 /* Pods-MintynBank testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynBank testTests.debug.xcconfig"; path = "Target Support Files/Pods-MintynBank testTests/Pods-MintynBank testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38497212733FF41F26834927 /* Pods-MintynBank test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynBank test.debug.xcconfig"; path = "Target Support Files/Pods-MintynBank test/Pods-MintynBank test.debug.xcconfig"; sourceTree = "<group>"; };
+		59179E351B2279ECFA93F341 /* Pods_MintynBank_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintynBank_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D51BE398C9A4C7020C49A3E /* Pods_MintynBank_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintynBank_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		934B898585DCBAFC6B326557 /* Pods-MintynBank testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynBank testTests.release.xcconfig"; path = "Target Support Files/Pods-MintynBank testTests/Pods-MintynBank testTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0015B66C26572EB4A0B66BD /* Pods-MintynBank test-MintynBank testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynBank test-MintynBank testUITests.release.xcconfig"; path = "Target Support Files/Pods-MintynBank test-MintynBank testUITests/Pods-MintynBank test-MintynBank testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0499B4BBDDE77C6B2EC1DF3 /* Pods-MintynBank test-MintynBank testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynBank test-MintynBank testUITests.debug.xcconfig"; path = "Target Support Files/Pods-MintynBank test-MintynBank testUITests/Pods-MintynBank test-MintynBank testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBEE1936292D725300FE8FAD /* MintynBank test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MintynBank test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEE1939292D725300FE8FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBEE1942292D725500FE8FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBEE1945292D725500FE8FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBEE1947292D725500FE8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEE194C292D725500FE8FAD /* MintynBank testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MintynBank testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEE1950292D725500FE8FAD /* MintynBank_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynBank_testTests.swift; sourceTree = "<group>"; };
+		EBEE1956292D725500FE8FAD /* MintynBank testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MintynBank testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEE195A292D725500FE8FAD /* MintynBank_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynBank_testUITests.swift; sourceTree = "<group>"; };
+		EBEE195C292D725500FE8FAD /* MintynBank_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynBank_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBEE1969292D7E5C00FE8FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBEE196F292D807A00FE8FAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EBEE1971292D81E500FE8FAD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EBEE1974292D9BF800FE8FAD /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
+		EBEE1976292DA3C500FE8FAD /* TextFieldWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithPadding.swift; sourceTree = "<group>"; };
+		EBEE1978292E041400FE8FAD /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		EBEE197A292E47B900FE8FAD /* LoginHeaderItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderItemView.swift; sourceTree = "<group>"; };
+		EBEE197C292E5A9800FE8FAD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EBEE197F292E62C300FE8FAD /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EBEE1983292E668E00FE8FAD /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		EBEE1985292E916700FE8FAD /* GradientUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientUIView.swift; sourceTree = "<group>"; };
+		EBEE1987292EFFB200FE8FAD /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
+		EBEE1989292F048000FE8FAD /* ExploreUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreUIView.swift; sourceTree = "<group>"; };
+		EBEE198B292F1FE100FE8FAD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "MintynBank test/Main.storyboard"; sourceTree = SOURCE_ROOT; };
+		EBEE1994292F25F600FE8FAD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EBEE1996292F285D00FE8FAD /* LegalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegalViewController.swift; sourceTree = "<group>"; };
+		EBEE1997292F285D00FE8FAD /* SystemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		EBEE199A292F294400FE8FAD /* Legal2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legal2ViewController.swift; sourceTree = "<group>"; };
+		EBEE199B292F294400FE8FAD /* Legal3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legal3ViewController.swift; sourceTree = "<group>"; };
+		EBEE199C292F294500FE8FAD /* Lega1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lega1ViewController.swift; sourceTree = "<group>"; };
+		EBEE19A029309BE300FE8FAD /* SOLUTION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SOLUTION.md; sourceTree = "<group>"; };
+		FB7EB9BE602A55DCC1C18A44 /* Pods-MintynBank test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynBank test.release.xcconfig"; path = "Target Support Files/Pods-MintynBank test/Pods-MintynBank test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEE1933292D725300FE8FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D999B8A56028C64173303D0 /* Pods_MintynBank_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEE1949292D725500FE8FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD17F4B6F27411D16F51189 /* Pods_MintynBank_testTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEE1953292D725500FE8FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA73365374A19C3CF94022A /* Pods_MintynBank_test_MintynBank_testUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69AE08B4974554D111F68E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59179E351B2279ECFA93F341 /* Pods_MintynBank_test.framework */,
+				1BF44192EF446F14D3999063 /* Pods_MintynBank_test_MintynBank_testUITests.framework */,
+				7D51BE398C9A4C7020C49A3E /* Pods_MintynBank_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73DB9D25C44DC6C141641C0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38497212733FF41F26834927 /* Pods-MintynBank test.debug.xcconfig */,
+				FB7EB9BE602A55DCC1C18A44 /* Pods-MintynBank test.release.xcconfig */,
+				E0499B4BBDDE77C6B2EC1DF3 /* Pods-MintynBank test-MintynBank testUITests.debug.xcconfig */,
+				C0015B66C26572EB4A0B66BD /* Pods-MintynBank test-MintynBank testUITests.release.xcconfig */,
+				2145C570B10283AC382DC745 /* Pods-MintynBank testTests.debug.xcconfig */,
+				934B898585DCBAFC6B326557 /* Pods-MintynBank testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBEE192D292D725300FE8FAD = {
+			isa = PBXGroup;
+			children = (
+				EBEE1938292D725300FE8FAD /* MintynBank test */,
+				EBEE194F292D725500FE8FAD /* MintynBank testTests */,
+				EBEE1959292D725500FE8FAD /* MintynBank testUITests */,
+				EBEE1937292D725300FE8FAD /* Products */,
+				73DB9D25C44DC6C141641C0C /* Pods */,
+				69AE08B4974554D111F68E70 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEE1937292D725300FE8FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE1936292D725300FE8FAD /* MintynBank test.app */,
+				EBEE194C292D725500FE8FAD /* MintynBank testTests.xctest */,
+				EBEE1956292D725500FE8FAD /* MintynBank testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEE1938292D725300FE8FAD /* MintynBank test */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE1939292D725300FE8FAD /* AppDelegate.swift */,
+				EBEE1969292D7E5C00FE8FAD /* SceneDelegate.swift */,
+				EBEE1947292D725500FE8FAD /* Info.plist */,
+				EBEE196E292D804A00FE8FAD /* FIles */,
+				EBEE196B292D802A00FE8FAD /* Login */,
+				EBEE197E292E626300FE8FAD /* Dashboard */,
+				EBEE1973292D9BC400FE8FAD /* Utils */,
+				EBEE19A029309BE300FE8FAD /* SOLUTION.md */,
+			);
+			path = "MintynBank test";
+			sourceTree = "<group>";
+		};
+		EBEE194F292D725500FE8FAD /* MintynBank testTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE1950292D725500FE8FAD /* MintynBank_testTests.swift */,
+			);
+			path = "MintynBank testTests";
+			sourceTree = "<group>";
+		};
+		EBEE1959292D725500FE8FAD /* MintynBank testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE195A292D725500FE8FAD /* MintynBank_testUITests.swift */,
+				EBEE195C292D725500FE8FAD /* MintynBank_testUITestsLaunchTests.swift */,
+			);
+			path = "MintynBank testUITests";
+			sourceTree = "<group>";
+		};
+		EBEE196B292D802A00FE8FAD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE196F292D807A00FE8FAD /* LoginViewController.swift */,
+				EBEE1978292E041400FE8FAD /* LoginHeaderView.swift */,
+				EBEE1971292D81E500FE8FAD /* LoginView.swift */,
+				EBEE197A292E47B900FE8FAD /* LoginHeaderItemView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EBEE196C292D803300FE8FAD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE1996292F285D00FE8FAD /* LegalViewController.swift */,
+				EBEE1997292F285D00FE8FAD /* SystemViewController.swift */,
+				EBEE198B292F1FE100FE8FAD /* Main.storyboard */,
+				EBEE199C292F294500FE8FAD /* Lega1ViewController.swift */,
+				EBEE199A292F294400FE8FAD /* Legal2ViewController.swift */,
+				EBEE199B292F294400FE8FAD /* Legal3ViewController.swift */,
+				EBEE1994292F25F600FE8FAD /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EBEE196D292D803B00FE8FAD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE197C292E5A9800FE8FAD /* HomeViewController.swift */,
+				EBEE1987292EFFB200FE8FAD /* HomeUIView.swift */,
+				EBEE1989292F048000FE8FAD /* ExploreUIView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EBEE196E292D804A00FE8FAD /* FIles */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE1942292D725500FE8FAD /* Assets.xcassets */,
+				EBEE1944292D725500FE8FAD /* LaunchScreen.storyboard */,
+			);
+			path = FIles;
+			sourceTree = "<group>";
+		};
+		EBEE1973292D9BC400FE8FAD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE1974292D9BF800FE8FAD /* UITextField+SecureToggle.swift */,
+				EBEE1976292DA3C500FE8FAD /* TextFieldWithPadding.swift */,
+				EBEE1983292E668E00FE8FAD /* UIViewController+Utils.swift */,
+				EBEE1985292E916700FE8FAD /* GradientUIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EBEE197E292E626300FE8FAD /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE196D292D803B00FE8FAD /* Home */,
+				EBEE196C292D803300FE8FAD /* Settings */,
+				EBEE197F292E62C300FE8FAD /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEE1935292D725300FE8FAD /* MintynBank test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEE1960292D725500FE8FAD /* Build configuration list for PBXNativeTarget "MintynBank test" */;
+			buildPhases = (
+				DA499A4817FE51D70280C214 /* [CP] Check Pods Manifest.lock */,
+				EBEE1932292D725300FE8FAD /* Sources */,
+				EBEE1933292D725300FE8FAD /* Frameworks */,
+				EBEE1934292D725300FE8FAD /* Resources */,
+				73DA3E90AE3232110866FB83 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MintynBank test";
+			productName = "MintynBank test";
+			productReference = EBEE1936292D725300FE8FAD /* MintynBank test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBEE194B292D725500FE8FAD /* MintynBank testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEE1963292D725500FE8FAD /* Build configuration list for PBXNativeTarget "MintynBank testTests" */;
+			buildPhases = (
+				340918098BA2160820F547F7 /* [CP] Check Pods Manifest.lock */,
+				EBEE1948292D725500FE8FAD /* Sources */,
+				EBEE1949292D725500FE8FAD /* Frameworks */,
+				EBEE194A292D725500FE8FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEE194E292D725500FE8FAD /* PBXTargetDependency */,
+			);
+			name = "MintynBank testTests";
+			productName = "MintynBank testTests";
+			productReference = EBEE194C292D725500FE8FAD /* MintynBank testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBEE1955292D725500FE8FAD /* MintynBank testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEE1966292D725500FE8FAD /* Build configuration list for PBXNativeTarget "MintynBank testUITests" */;
+			buildPhases = (
+				FAB5E177EF7833B89C73B19D /* [CP] Check Pods Manifest.lock */,
+				EBEE1952292D725500FE8FAD /* Sources */,
+				EBEE1953292D725500FE8FAD /* Frameworks */,
+				EBEE1954292D725500FE8FAD /* Resources */,
+				71C7AB284305E3847D5CD0C2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEE1958292D725500FE8FAD /* PBXTargetDependency */,
+			);
+			name = "MintynBank testUITests";
+			productName = "MintynBank testUITests";
+			productReference = EBEE1956292D725500FE8FAD /* MintynBank testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEE192E292D725300FE8FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EBEE1935292D725300FE8FAD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					EBEE194B292D725500FE8FAD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EBEE1935292D725300FE8FAD;
+					};
+					EBEE1955292D725500FE8FAD = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EBEE1935292D725300FE8FAD;
+					};
+				};
+			};
+			buildConfigurationList = EBEE1931292D725300FE8FAD /* Build configuration list for PBXProject "MintynBank test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBEE192D292D725300FE8FAD;
+			productRefGroup = EBEE1937292D725300FE8FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEE1935292D725300FE8FAD /* MintynBank test */,
+				EBEE194B292D725500FE8FAD /* MintynBank testTests */,
+				EBEE1955292D725500FE8FAD /* MintynBank testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEE1934292D725300FE8FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE198C292F1FE100FE8FAD /* Main.storyboard in Resources */,
+				EBEE1946292D725500FE8FAD /* LaunchScreen.storyboard in Resources */,
+				EBEE1943292D725500FE8FAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEE194A292D725500FE8FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEE1954292D725500FE8FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340918098BA2160820F547F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintynBank testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C7AB284305E3847D5CD0C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintynBank test-MintynBank testUITests/Pods-MintynBank test-MintynBank testUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintynBank test-MintynBank testUITests/Pods-MintynBank test-MintynBank testUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintynBank test-MintynBank testUITests/Pods-MintynBank test-MintynBank testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DA3E90AE3232110866FB83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintynBank test/Pods-MintynBank test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintynBank test/Pods-MintynBank test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintynBank test/Pods-MintynBank test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA499A4817FE51D70280C214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintynBank test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB5E177EF7833B89C73B19D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintynBank test-MintynBank testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEE1932292D725300FE8FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE197B292E47B900FE8FAD /* LoginHeaderItemView.swift in Sources */,
+				EBEE199F292F294500FE8FAD /* Lega1ViewController.swift in Sources */,
+				EBEE1986292E916700FE8FAD /* GradientUIView.swift in Sources */,
+				EBEE199E292F294500FE8FAD /* Legal3ViewController.swift in Sources */,
+				EBEE1975292D9BF800FE8FAD /* UITextField+SecureToggle.swift in Sources */,
+				EBEE1977292DA3C500FE8FAD /* TextFieldWithPadding.swift in Sources */,
+				EBEE1970292D807A00FE8FAD /* LoginViewController.swift in Sources */,
+				EBEE1999292F285E00FE8FAD /* SystemViewController.swift in Sources */,
+				EBEE193A292D725300FE8FAD /* AppDelegate.swift in Sources */,
+				EBEE199D292F294500FE8FAD /* Legal2ViewController.swift in Sources */,
+				EBEE197D292E5A9800FE8FAD /* HomeViewController.swift in Sources */,
+				EBEE1979292E041400FE8FAD /* LoginHeaderView.swift in Sources */,
+				EBEE1998292F285E00FE8FAD /* LegalViewController.swift in Sources */,
+				EBEE1995292F25F600FE8FAD /* SettingsViewController.swift in Sources */,
+				EBEE1988292EFFB200FE8FAD /* HomeUIView.swift in Sources */,
+				EBEE198A292F048000FE8FAD /* ExploreUIView.swift in Sources */,
+				EBEE1984292E668E00FE8FAD /* UIViewController+Utils.swift in Sources */,
+				EBEE1980292E62C300FE8FAD /* DashboardViewController.swift in Sources */,
+				EBEE1972292D81E500FE8FAD /* LoginView.swift in Sources */,
+				EBEE196A292D7E5C00FE8FAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEE1948292D725500FE8FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE1951292D725500FE8FAD /* MintynBank_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEE1952292D725500FE8FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE195B292D725500FE8FAD /* MintynBank_testUITests.swift in Sources */,
+				EBEE195D292D725500FE8FAD /* MintynBank_testUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBEE194E292D725500FE8FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBEE1935292D725300FE8FAD /* MintynBank test */;
+			targetProxy = EBEE194D292D725500FE8FAD /* PBXContainerItemProxy */;
+		};
+		EBEE1958292D725500FE8FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBEE1935292D725300FE8FAD /* MintynBank test */;
+			targetProxy = EBEE1957292D725500FE8FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBEE1944292D725500FE8FAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEE1945292D725500FE8FAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEE195E292D725500FE8FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBEE195F292D725500FE8FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEE1961292D725500FE8FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38497212733FF41F26834927 /* Pods-MintynBank test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CMSU6QY5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MintynBank test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babatunde.MintynBank-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBEE1962292D725500FE8FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7EB9BE602A55DCC1C18A44 /* Pods-MintynBank test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CMSU6QY5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MintynBank test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babatunde.MintynBank-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBEE1964292D725500FE8FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2145C570B10283AC382DC745 /* Pods-MintynBank testTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CMSU6QY5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babatunde.MintynBank-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintynBank test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MintynBank test";
+			};
+			name = Debug;
+		};
+		EBEE1965292D725500FE8FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934B898585DCBAFC6B326557 /* Pods-MintynBank testTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CMSU6QY5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babatunde.MintynBank-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MintynBank test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MintynBank test";
+			};
+			name = Release;
+		};
+		EBEE1967292D725500FE8FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0499B4BBDDE77C6B2EC1DF3 /* Pods-MintynBank test-MintynBank testUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CMSU6QY5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babatunde.MintynBank-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MintynBank test";
+			};
+			name = Debug;
+		};
+		EBEE1968292D725500FE8FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0015B66C26572EB4A0B66BD /* Pods-MintynBank test-MintynBank testUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CMSU6QY5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.babatunde.MintynBank-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MintynBank test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEE1931292D725300FE8FAD /* Build configuration list for PBXProject "MintynBank test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE195E292D725500FE8FAD /* Debug */,
+				EBEE195F292D725500FE8FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEE1960292D725500FE8FAD /* Build configuration list for PBXNativeTarget "MintynBank test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE1961292D725500FE8FAD /* Debug */,
+				EBEE1962292D725500FE8FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEE1963292D725500FE8FAD /* Build configuration list for PBXNativeTarget "MintynBank testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE1964292D725500FE8FAD /* Debug */,
+				EBEE1965292D725500FE8FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEE1966292D725500FE8FAD /* Build configuration list for PBXNativeTarget "MintynBank testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE1967292D725500FE8FAD /* Debug */,
+				EBEE1968292D725500FE8FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEE192E292D725300FE8FAD /* Project object */;
+}
